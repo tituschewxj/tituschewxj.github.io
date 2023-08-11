@@ -7,6 +7,7 @@
 		['CS2030S Programming Methodology II', 'Year 1 Semester 2'],
 		['CS2040S Data Structures and Algorithms', 'Year 1 Semester 2'],
 		['CS2100 Computer Organisation', 'Ongoing'],
+		['CS2105 Introduction to Computer Networks', 'Ongoing'],
 		['CS2109S Introduction to AI and Machine Learning', 'Ongoing'],
 		['CS3241 Computer Graphics', 'Ongoing'],
 		['CS3230 Design and Analysis of Algorithms', 'Ongoing']
