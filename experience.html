@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.9be8d4fb.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Indicator.1d121e74.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.d0ee7859.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.79bb74c7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f0775d65.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.f92e9956.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.8ece5bc1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.50de5a3b.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.a92751e0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Indicator.svelte_svelte_type_style_lang.04ee9e0c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/spread.8a54911c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Frame.f9f3feb0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.d5022c7c.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.7261640a.js"><!-- HEAD_svelte-19epqvd_START --><script data-svelte-h="svelte-1oo2ycg">if ('color-theme' in localStorage) {
+      // explicit preference - overrides author's choice
+      localStorage.getItem('color-theme') === 'dark'
+        ? window.document.documentElement.classList.add('dark')
+        : window.document.documentElement.classList.remove('dark');
+    } else {
+      // browser preference - does not overrides
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches)
+        window.document.documentElement.classList.add('dark');
+    }</script><!-- HEAD_svelte-19epqvd_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-white dark:bg-gray-800">
+		<div style="display: contents">  <div class="flex h-screen flex-col"><nav class="dark:bg-gray-900 text-gray-700 dark:text-gray-200 border-gray-100 dark:border-gray-700 divide-gray-100 dark:divide-gray-700 px-2 sm:px-4 py-2.5 w-full bg-gray-50"><div class="mx-auto flex flex-wrap justify-between items-center container"><a href="/" class="flex items-center ml-8"><span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white" data-svelte-h="svelte-oe3byf">Titus Chew</span></a>  <button type="button" class="focus:outline-none whitespace-normal m-0.5 rounded-lg focus:ring-2 p-1.5 focus:ring-gray-400 hover:bg-gray-100 dark:hover:bg-gray-600 ml-3 md:hidden" aria-label="Open main menu"><span class="sr-only">Open main menu</span> <svg xmlns="http://www.w3.org/2000/svg" role="button" tabindex="0" width="24" height="24" class="h-6 w-6 shrink-0" aria-label="bars 3" fill="none" viewBox="0 0 24 24" stroke-width="2"><!-- HTML_TAG_START --><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path> <!-- HTML_TAG_END --></svg> </button>   <div class="w-full md:block md:w-auto" hidden><ul class="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"><li><a href="/" class="block py-2 pr-4 pl-3 md:p-0 rounded text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a></li>  <li><a href="/about" class="block py-2 pr-4 pl-3 md:p-0 rounded text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a></li>  <li><a href="/projects" class="block py-2 pr-4 pl-3 md:p-0 rounded text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary-700 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a></li>  <li><a href="/experience" class="block py-2 pr-4 pl-3 md:p-0 rounded md:border-0 text-white bg-primary-700 md:bg-transparent md:text-primary-700 md:dark:text-white dark:bg-primary-600 md:dark:bg-transparent">Experience</a></li> </ul></div>   <button aria-label="Dark mode" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 hidden md:block"><span class="hidden dark:block"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1
+  0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg> </span> <span class="block dark:hidden"> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg> </span></button> </div></nav>   <div class="flex flex-1 justify-center p-8"><div><ol class="relative border-l border-gray-200 dark:border-gray-700 md:m-8 md:max-w-xl"><li class="mb-10 ml-4"><div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div> <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">May 2023</time> <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Computing for Voluntary Welfare Organisations</h3> <p class="whitespace-normal text-sm text-gray-700 dark:text-gray-400" data-svelte-h="svelte-7bg2re">Computing for Voluntary Welfare Organisations (CVWO) is an NUS programme that builds and
+				maintains quality IT systems for Voluntary Welfare Organisations (VWOs). Working in a team
+				of 7, I maintained and improved the Case Management System (CMS). I ported the CMS backend
+				from Ruby on Rails to Golang, resulting in significant performance improvements, as well as
+				long term maintainability of the codebase. I also made bug fixes and enhancements for our
+				partner VWOs, which streamlines their workflow, allowing them to spend their time and energy
+				on helping their beneficiaries instead.</p></li>  <li class="mb-10 ml-4"><div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div> <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2023</time> <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Source Academy</h3> <p class="whitespace-normal text-sm text-gray-700 dark:text-gray-400" data-svelte-h="svelte-9xye0c">Source Academy is a platform used by NUS students to learn computational thinking in
+				CS1101S, Programming Methodology I. Working as a pair, I designed and implemented Source
+				Academy&#39;s Arcade2D module, which uses Phaser 3. This module provides students a way to
+				create 2D games through applying what they have learnt.</p></li> </ol> </div></div> <footer class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:p-6 dark:bg-gray-800 flex justify-start gap-4 align-middle md:justify-start"><a href="https://github.com/tituschewxj" data-svelte-h="svelte-1kie7lo"><svg width="32" height="32" class="dark:fill-gray-200" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg></a> <a href="https://www.linkedin.com/in/titus-chew-0313b521b/" data-svelte-h="svelte-12wyy56"><svg width="32" height="32" class="dark:fill-gray-200" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg></a></footer> </div> 
+			
+			<script>
+				{
+					__sveltekit_18b38cx = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.d0ee7859.js"),
+						import("./_app/immutable/entry/app.8ece5bc1.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
