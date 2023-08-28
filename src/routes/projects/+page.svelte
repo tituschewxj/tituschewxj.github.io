@@ -17,7 +17,7 @@
 	<ProjectCard title="Ster" link="https://github.com/tituschewxj/Gamecraft-2022-Game-Jam-Ster">
 		I created a game in a week for the Gamecraft! 2022 Game Jam using Unity.
 	</ProjectCard>
-	<ProjectCard title="Porfolio Website">
+	<ProjectCard title="Porfolio Website" link="https://github.com/tituschewxj/tituschewxj.github.io">
 		I created this website using Svelte, Tailwind, and the Flowbite Svelte component library.
 	</ProjectCard>
 </div>

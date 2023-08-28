@@ -36,7 +36,10 @@
 		['CSS', 'Style sheet language'],
 		['Vim', 'Text editor'],
 		['Material UI', 'Component library'],
-		['Flowbite Svelte', 'Component library']
+		['Flowbite Svelte', 'Component library'],
+		['GORM', 'ORM library'],
+		['REST API', 'API'],
+		['Phaser 3', 'Game framework']
 	];
 </script>
 
