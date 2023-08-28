@@ -9,9 +9,12 @@
 		TableSearch
 	} from 'flowbite-svelte';
 	import { writable } from 'svelte/store';
+	import TableModal from './TableModal.svelte';
 	export let searchTerm: string = '';
 	export let headers: string[] = ['no title'];
 	export let items: string[][] = [];
+
+	// Sorting
 
 	const sortColumn = writable(0); // default sort key
 	const sortDirection = writable(1); // default sort direction (ascending)
@@ -48,6 +51,18 @@
 
 		sortItems.set(sorted);
 	}
+
+	// Modal
+
+	let clickOutsideModal = false;
+	let content: string = '';
+	let title: string = '';
+	const openModal = (data: string[]) => {
+		if (data[2] == undefined) return;
+		clickOutsideModal = true;
+		title = data[0];
+		content = data[2] ? data[2] : 'No content';
+	};
 </script>
 
 <TableSearch placeholder="Search by {headers[0]}" hoverable={true} bind:inputValue={searchTerm}>
@@ -66,7 +81,7 @@
 	</TableHead>
 	<TableBody>
 		{#each $sortItems as rowItems}
-			<TableBodyRow>
+			<TableBodyRow on:click={() => openModal(rowItems)}>
 				{#each rowItems as item, i}
 					{#if i == 0}
 						<TableBodyCell>
@@ -82,3 +97,5 @@
 		{/each}
 	</TableBody>
 </TableSearch>
+
+<TableModal bind:clickOutsideModal {content} {title} />
