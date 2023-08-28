@@ -1,4 +1,4 @@
-<a href="https://www.linkedin.com/in/titus-chew-0313b521b/">
+<a href="https://www.linkedin.com/in/tituschewxj">
 	<svg
 		width="32"
 		height="32"
