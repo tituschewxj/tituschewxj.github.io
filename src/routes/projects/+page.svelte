@@ -4,14 +4,15 @@
 
 <div class="grid gap-4 md:grid-cols-2">
 	<ProjectCard title="TAPro" link="https://github.com/AY2324S2-CS2103T-F13-1/tp">
-		TAPro is a contact book application for Computer Science TAs. Created using Java and JavaFX, in a team of 5 for CS2103T.
+		TAPro is a contact book application for Computer Science TAs. Created using Java and JavaFX, in
+		a team of 5 for CS2103T.
 	</ProjectCard>
 	<ProjectCard title="Stratify" link="https://github.com/tituschewxj/ip/">
 		Stratify is a task management chat-bot. Created using Java and JavaFX, for CS2103T.
 	</ProjectCard>
 	<ProjectCard title="CVWO Assignment" link="https://github.com/tituschewxj/gossip-app">
-		Created a full stack application using a React-Typescript frontend, and a Ruby on Rails
-		backend for the Computing for Voluntary Welfare Organisations (CVWO) Assignment.
+		Created a full stack application using a React-Typescript frontend, and a Ruby on Rails backend
+		for the Computing for Voluntary Welfare Organisations (CVWO) Assignment.
 	</ProjectCard>
 	<ProjectCard title="Arcade 2D" link="https://github.com/source-academy/modules">
 		Working as a pair, I designed and implemented the Arcade 2D module in Source Academy using
@@ -26,5 +27,4 @@
 	<ProjectCard title="Porfolio Website" link="https://github.com/tituschewxj/tituschewxj.github.io">
 		Created this website using Svelte, Tailwind, and the Flowbite Svelte component library.
 	</ProjectCard>
-
 </div>

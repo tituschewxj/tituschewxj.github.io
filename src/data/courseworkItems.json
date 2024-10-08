@@ -1,0 +1,74 @@
+[
+	{
+		"course": "CS1101S Programming Methodology I",
+		"year": "Y1S1"
+	},
+	{
+		"course": "CS1231S Discrete Structures",
+		"year": "Y1S1"
+	},
+	{
+		"course": "CS2030S Programming Methodology II",
+		"year": "Y1S2"
+	},
+	{
+		"course": "CS2040S Data Structures and Algorithms",
+		"year": "Y1S2"
+	},
+	{
+		"course": "CS2100 Computer Organisation",
+		"year": "Y2S1"
+	},
+	{
+		"course": "CS2105 Introduction to Computer Networks",
+		"year": "Y2S1"
+	},
+	{
+		"course": "CS2109S Introduction to AI and Machine Learning",
+		"year": "Y2S1"
+	},
+	{
+		"course": "CS3241 Computer Graphics",
+		"year": "Y2S1"
+	},
+	{
+		"course": "CS3230 Design and Analysis of Algorithms",
+		"year": "Y2S1"
+	},
+	{
+		"course": "CS2101 Effective Communication for Computing Professionals",
+		"year": "Y2S2"
+	},
+	{
+		"course": "CS2102 Database Systems",
+		"year": "Y2S2"
+	},
+	{
+		"course": "CS2103T Software Engineering",
+		"year": "Y2S2"
+	},
+	{
+		"course": "CS2106 Introduction to Operating Systems",
+		"year": "Y2S2"
+	},
+	{
+		"course": "CS2107 Introduction to Information Security",
+		"year": "Y2S2"
+	},
+	{
+		"course": "CS2104 Programming Language Concepts",
+		"year": "Y3S1"
+	},
+	{
+		"course": "CS3210 Parallel Computing",
+		"year": "Y3S1"
+	},
+	{
+		"course": "CS3219 Software Engineering Principles and Patterns",
+		"year": "Y3S1"
+	},
+	{
+		"course": "CS4225 Big Data Systems for Data Science",
+		"year": "Y3S1"
+	}
+]

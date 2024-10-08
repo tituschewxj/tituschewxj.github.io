@@ -15,6 +15,12 @@ npm run dev
 npm run dev -- --open
 ```
 
+If prettier is set up, we can prettify files using:
+
+```bash
+npx prettier --check --write .
+```
+
 ## Building
 
 To create a production version of this app:

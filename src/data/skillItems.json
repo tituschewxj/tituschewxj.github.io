@@ -1,0 +1,114 @@
+[
+	{
+		"skill": "Ruby on Rails",
+		"description": "Backend"
+	},
+	{
+		"skill": "Golang",
+		"description": "Programming language"
+	},
+	{
+		"skill": "TypeScript",
+		"description": "Programming language"
+	},
+	{
+		"skill": "React",
+		"description": "Frontend framework"
+	},
+	{
+		"skill": "MySQL",
+		"description": "Database language"
+	},
+	{
+		"skill": "PostgreSQL",
+		"description": "Database language"
+	},
+	{
+		"skill": "C++",
+		"description": "Programming language"
+	},
+	{
+		"skill": "JavaScript",
+		"description": "Programming language"
+	},
+	{
+		"skill": "Java",
+		"description": "Programming language"
+	},
+	{
+		"skill": "Microsoft Office Suite",
+		"description": "Word, PowerPoint, Excel"
+	},
+	{
+		"skill": "Visual Basic for Applications (VBA)",
+		"description": "Programming language"
+	},
+	{
+		"skill": "Microsoft Office Suite",
+		"description": "Word, PowerPoint, Excel"
+	},
+	{
+		"skill": "Arduino",
+		"description": "Hardware"
+	},
+	{
+		"skill": "Python",
+		"description": "Programming language"
+	},
+	{
+		"skill": "Svelte",
+		"description": "Frontend framework"
+	},
+	{
+		"skill": "Git",
+		"description": "Frontend framework"
+	},
+	{
+		"skill": "Markdown",
+		"description": "Frontend framework"
+	},
+	{
+		"skill": "Unity Game Engine",
+		"description": "Game engine"
+	},
+	{
+		"skill": "C#",
+		"description": "Programming language"
+	},
+	{
+		"skill": "HTML",
+		"description": "Markup langauge"
+	},
+	{
+		"skill": "CSS",
+		"description": "Style sheet language"
+	},
+	{
+		"skill": "Vim",
+		"description": "Text editor"
+	},
+	{
+		"skill": "Material UI",
+		"description": "Component library"
+	},
+	{
+		"skill": "Flowbite Svelte",
+		"description": "Component library"
+	},
+	{
+		"skill": "GORM",
+		"description": "ORM library"
+	},
+	{
+		"skill": "REST API",
+		"description": "API"
+	},
+	{
+		"skill": "Phaser 3",
+		"description": "Game framework"
+	},
+	{
+		"skill": "JavaFX",
+		"description": "Java library"
+	}
+]
