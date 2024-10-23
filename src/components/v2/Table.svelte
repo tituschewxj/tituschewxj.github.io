@@ -9,32 +9,35 @@
 		TableHeadCell,
 		TableSearch
 	} from 'flowbite-svelte';
+	import type { Item } from '../../types/item';
 	let searchTerm = '';
-	export let items: any[] = [];
-
-	export let columnMapping: any[] = {};
+	export let items: Item[] = [];
+	export let columnMapping: Item[] = [];
 
 	// Extract the column names (keys) and the corresponding data fields (values)
-	const columnNames = Object.keys(columnMapping);
-	const searchColumn: string = columnNames[0];
+	const columnNames = Object.values(columnMapping);
+	const searchColumn: string =
+		columnNames.length > 0 ? Object.values(columnNames[0]).toString() : '';
 
-	$: filteredItems = items.filter(
-		(item) =>
-			item[columnMapping[searchColumn]].toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
-	);
+	$: filteredItems = items.filter((item) => {
+		const value = item[Object.keys(Object.values(columnNames)[0])[0]];
+		return (
+			typeof value === 'string' && value.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1
+		);
+	});
 </script>
 
 <TableSearch placeholder="Search by {searchColumn}" hoverable={true} bind:inputValue={searchTerm}>
 	<TableHead>
 		{#each columnNames as columnName}
-			<TableHeadCell>{columnName}</TableHeadCell>
+			<TableHeadCell>{Object.values(columnName)}</TableHeadCell>
 		{/each}
 	</TableHead>
 	<TableBody tableBodyClass="divide-y">
 		{#each filteredItems as item}
 			<TableBodyRow>
 				{#each columnNames as columnName}
-					<TableBodyCell>{item[columnMapping[columnName]]}</TableBodyCell>
+					<TableBodyCell>{item[Object.keys(columnName)[0]]}</TableBodyCell>
 				{/each}
 			</TableBodyRow>
 		{/each}

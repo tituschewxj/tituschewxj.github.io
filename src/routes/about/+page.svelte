@@ -3,16 +3,10 @@
 	import { TabItem, Tabs } from 'flowbite-svelte';
 	import courseworkItems from '../../data/courseworkItems.json';
 	import skillItems from '../../data/skillItems.json';
+	import type { Item } from '../../types/item';
 
-	const courseworkItemsColumnMapping = {
-		Coursework: 'course',
-		'Taken in': 'year'
-	};
-
-	const skillItemsColumnMapping = {
-		Skills: 'skill',
-		Description: 'description'
-	};
+	const courseworkItemsColumnMapping: Item[] = [{ course: 'Course' }, { year: 'Taken in' }];
+	const skillItemsColumnMapping: Item[] = [{ skill: 'Skill' }, { description: 'Description' }];
 </script>
 
 <div>
@@ -21,14 +15,12 @@
 			<p class="font-mormal m-8 whitespace-pre-line text-sm text-gray-700 dark:text-gray-400">
 				Here are some computer science courses I have taken.
 			</p>
-			<!-- <Table headers={['Relevant Coursework', 'Taken in']} items={courseworkItemsArray} /> -->
 			<Table columnMapping={courseworkItemsColumnMapping} items={courseworkItems} />
 		</TabItem>
 		<TabItem title="Skills">
 			<p class="font-mormal m-8 whitespace-pre-line text-sm text-gray-700 dark:text-gray-400">
 				Here are some technologies that I have worked with before.
 			</p>
-
 			<Table columnMapping={skillItemsColumnMapping} items={skillItems} />
 		</TabItem>
 	</Tabs>
