@@ -13,8 +13,9 @@
 		<slot />
 	</div>
 
-	<Footer class="flex justify-start gap-4 align-middle md:justify-start">
+	<!-- REFACTOR: should integrate into main page instead -->
+	<!-- <Footer class="flex justify-start gap-4 align-middle md:justify-start">
 		<GithubIcon />
 		<LinkedinIcon />
-	</Footer>
+	</Footer> -->
 </div>
